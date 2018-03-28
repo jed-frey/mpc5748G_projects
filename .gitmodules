@@ -1,0 +1,12 @@
+[submodule ".env/bootstrap_CMake"]
+	path = .env/bootstrap_CMake
+	url = git@github.com:jed-frey/bootstrap_CMake.git
+[submodule ".env/bootstrap_MinGW"]
+	path = .env/bootstrap_MinGW
+	url = git@github.com:jed-frey/bootstrap_MinGW.git
+[submodule ".env/bootstrap_WinPython"]
+	path = .env/bootstrap_WinPython
+	url = git@github.com:jed-frey/bootstrap_WinPython.git
+[submodule ".env/bootstrap_LLVM"]
+	path = .env/bootstrap_LLVM
+	url = git@github.com:jed-frey/bootstrap_LLVM.git
