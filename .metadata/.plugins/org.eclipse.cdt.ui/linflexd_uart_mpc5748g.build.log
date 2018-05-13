@@ -1,0 +1,33 @@
+01:44:57 **** Build of configuration Debug_FLASH for project linflexd_uart_mpc5748g ****
+make -j8 all 
+Building file: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S
+Building file: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S
+Executing target #1 C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S
+Executing target #2 C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/Startup_MPC5748G.args" -c -o "Project_Settings/Startup_Code/startup_MPC5748G.o" "C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S"
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/core0_intc_sw_handlers.args" -c -o "Project_Settings/Startup_Code/core0_intc_sw_handlers.o" "C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S"
+Building file: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S
+Building file: ../Sources/main.c
+Executing target #3 C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S
+Executing target #4 ../Sources/main.c
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/interrupt_vectors.args" -c -o "Project_Settings/Startup_Code/interrupt_vectors.o" "C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:48:17: fatal error: Cpu.h: No such file or directory
+ #include "Cpu.h"
+                 ^
+compilation terminated.
+make: *** [Sources/subdir.mk:35: Sources/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+Finished building: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S
+Finished building: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S
+ 
+ 
+Finished building: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S
+ 
+
+01:44:59 Build Finished (took 1s.777ms)
+

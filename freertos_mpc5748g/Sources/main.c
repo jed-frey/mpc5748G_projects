@@ -47,6 +47,9 @@
 #include "Cpu.h"
 #include "FreeRTOS.h"
 #include "clockMan1.h"
+#include "uart_pal1.h"
+#include "osif1.h"
+#include "dmaController1.h"
 
 volatile int exit_code = 0;
 /* User includes (#include below this line is not maintained by Processor Expert) */

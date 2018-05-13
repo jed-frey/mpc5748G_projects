@@ -1,0 +1,6 @@
+01:44:56 **** Incremental Build of configuration Debug for project adc_Z2_3 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+
+01:44:56 Build Finished (took 185ms)
+

@@ -1,0 +1,219 @@
+01:17:16 **** Build of configuration Debug for project adc_Z2_3 ****
+make -j8 all 
+Building file: ../Project_Settings/Startup_Code/startup.S
+Building file: ../src/MPC57xx__Interrupt_Init.c
+Executing target #1 ../Project_Settings/Startup_Code/startup.S
+Executing target #2 ../src/MPC57xx__Interrupt_Init.c
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/startup.args" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.S"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/MPC57xx__Interrupt_Init.args" -MMD -MP -MF"src/MPC57xx__Interrupt_Init.d" -MT"src/MPC57xx__Interrupt_Init.o" -c -o "src/MPC57xx__Interrupt_Init.o" "../src/MPC57xx__Interrupt_Init.c"
+Building file: ../src/Vector.c
+Building file: ../src/adc_Z2_3.c
+Executing target #3 ../src/Vector.c
+Executing target #4 ../src/adc_Z2_3.c
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/Vector.args" -MMD -MP -MF"src/Vector.d" -MT"src/Vector.o" -c -o "src/Vector.o" "../src/Vector.c"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/adc_Z2_3.args" -MMD -MP -MF"src/adc_Z2_3.d" -MT"src/adc_Z2_3.o" -c -o "src/adc_Z2_3.o" "../src/adc_Z2_3.c"
+Building file: ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+Building file: ../src/intc_sw_handlers.S
+Executing target #5 ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+Executing target #6 ../src/intc_sw_handlers.S
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/intc_SW_mode_isr_vectors_MPC5748G.args" -MMD -MP -MF"src/intc_SW_mode_isr_vectors_MPC5748G.d" -MT"src/intc_SW_mode_isr_vectors_MPC5748G.o" -c -o "src/intc_SW_mode_isr_vectors_MPC5748G.o" "../src/intc_SW_mode_isr_vectors_MPC5748G.c"
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@src/intc_sw_handlers.args" -c -o "src/intc_sw_handlers.o" "../src/intc_sw_handlers.S"
+Finished building: ../src/intc_sw_handlers.S
+Finished building: ../Project_Settings/Startup_Code/startup.S
+ 
+ 
+Finished building: ../src/MPC57xx__Interrupt_Init.c
+Finished building: ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+ 
+ 
+Finished building: ../src/adc_Z2_3.c
+Finished building: ../src/Vector.c
+ 
+ 
+Building target: adc_Z2_3.elf
+Executing target #7 adc_Z2_3.elf
+Invoking: Standard S32DS C Linker
+powerpc-eabivle-gcc -o "adc_Z2_3.elf" "@adc_Z2_3.args"    
+Finished building target: adc_Z2_3.elf
+ 
+01:17:20 **** Incremental Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+Building file: ../Project_Settings/Startup_Code/startup.S
+Building file: ../src/MPC57xx__Interrupt_Init.c
+Executing target #1 ../Project_Settings/Startup_Code/startup.S
+Executing target #2 ../src/MPC57xx__Interrupt_Init.c
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/startup.args" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.S"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/MPC57xx__Interrupt_Init.args" -MMD -MP -MF"src/MPC57xx__Interrupt_Init.d" -MT"src/MPC57xx__Interrupt_Init.o" -c -o "src/MPC57xx__Interrupt_Init.o" "../src/MPC57xx__Interrupt_Init.c"
+Building file: ../src/Vector.c
+Building file: ../src/adc_Z4_2.c
+Executing target #3 ../src/Vector.c
+Executing target #4 ../src/adc_Z4_2.c
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/Vector.args" -MMD -MP -MF"src/Vector.d" -MT"src/Vector.o" -c -o "src/Vector.o" "../src/Vector.c"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/adc_Z4_2.args" -MMD -MP -MF"src/adc_Z4_2.d" -MT"src/adc_Z4_2.o" -c -o "src/adc_Z4_2.o" "../src/adc_Z4_2.c"
+Building file: ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+Building file: ../src/intc_sw_handlers.S
+Executing target #5 ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+Executing target #6 ../src/intc_sw_handlers.S
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/intc_SW_mode_isr_vectors_MPC5748G.args" -MMD -MP -MF"src/intc_SW_mode_isr_vectors_MPC5748G.d" -MT"src/intc_SW_mode_isr_vectors_MPC5748G.o" -c -o "src/intc_SW_mode_isr_vectors_MPC5748G.o" "../src/intc_SW_mode_isr_vectors_MPC5748G.c"
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@src/intc_sw_handlers.args" -c -o "src/intc_sw_handlers.o" "../src/intc_sw_handlers.S"
+Finished building: ../Project_Settings/Startup_Code/startup.S
+Finished building: ../src/intc_sw_handlers.S
+ 
+ 
+Finished building: ../src/MPC57xx__Interrupt_Init.c
+Finished building: ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+ 
+ 
+Finished building: ../src/adc_Z4_2.c
+Finished building: ../src/Vector.c
+ 
+ 
+Building target: adc_Z4_2.elf
+Executing target #7 adc_Z4_2.elf
+Invoking: Standard S32DS C Linker
+powerpc-eabivle-gcc -o "adc_Z4_2.elf" "@adc_Z4_2.args"    
+Finished building target: adc_Z4_2.elf
+ 
+01:17:23 **** Build of configuration Debug for project adc_Z4_1 ****
+make -j8 all 
+Building file: ../Project_Settings/Startup_Code/startup.S
+Building file: ../src/MPC57xx__Interrupt_Init.c
+Executing target #1 ../Project_Settings/Startup_Code/startup.S
+Executing target #2 ../src/MPC57xx__Interrupt_Init.c
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/startup.args" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.S"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/MPC57xx__Interrupt_Init.args" -MMD -MP -MF"src/MPC57xx__Interrupt_Init.d" -MT"src/MPC57xx__Interrupt_Init.o" -c -o "src/MPC57xx__Interrupt_Init.o" "../src/MPC57xx__Interrupt_Init.c"
+Building file: ../src/Vector.c
+Building file: ../src/adc.c
+Executing target #3 ../src/Vector.c
+Executing target #4 ../src/adc.c
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/Vector.args" -MMD -MP -MF"src/Vector.d" -MT"src/Vector.o" -c -o "src/Vector.o" "../src/Vector.c"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/adc.args" -MMD -MP -MF"src/adc.d" -MT"src/adc.o" -c -o "src/adc.o" "../src/adc.c"
+Building file: ../src/adc_Z4_1.c
+Building file: ../src/flashrchw.c
+Executing target #5 ../src/adc_Z4_1.c
+Executing target #6 ../src/flashrchw.c
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/adc_Z4_1.args" -MMD -MP -MF"src/adc_Z4_1.d" -MT"src/adc_Z4_1.o" -c -o "src/adc_Z4_1.o" "../src/adc_Z4_1.c"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/flashrchw.args" -MMD -MP -MF"src/flashrchw.d" -MT"src/flashrchw.o" -c -o "src/flashrchw.o" "../src/flashrchw.c"
+Building file: ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+Building file: ../src/intc_sw_handlers.S
+Executing target #7 ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+Executing target #8 ../src/intc_sw_handlers.S
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/intc_SW_mode_isr_vectors_MPC5748G.args" -MMD -MP -MF"src/intc_SW_mode_isr_vectors_MPC5748G.d" -MT"src/intc_SW_mode_isr_vectors_MPC5748G.o" -c -o "src/intc_SW_mode_isr_vectors_MPC5748G.o" "../src/intc_SW_mode_isr_vectors_MPC5748G.c"
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@src/intc_sw_handlers.args" -c -o "src/intc_sw_handlers.o" "../src/intc_sw_handlers.S"
+Finished building: ../Project_Settings/Startup_Code/startup.S
+Finished building: ../src/intc_sw_handlers.S
+ 
+ 
+Finished building: ../src/MPC57xx__Interrupt_Init.c
+Finished building: ../src/intc_SW_mode_isr_vectors_MPC5748G.c
+ 
+ 
+Finished building: ../src/flashrchw.c
+Finished building: ../src/adc_Z4_1.c
+ 
+ 
+Finished building: ../src/adc.c
+Finished building: ../src/Vector.c
+ 
+ 
+Building file: ../src/mode.c
+Executing target #9 ../src/mode.c
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@src/mode.args" -MMD -MP -MF"src/mode.d" -MT"src/mode.o" -c -o "src/mode.o" "../src/mode.c"
+Finished building: ../src/mode.c
+ 
+Building target: adc_Z4_1.elf
+Executing target #10 adc_Z4_1.elf
+Invoking: Standard S32DS C Linker
+powerpc-eabivle-gcc -o "adc_Z4_1.elf" "@adc_Z4_1.args"    
+Finished building target: adc_Z4_1.elf
+ 
+01:17:27 **** Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:36:50 **** Incremental Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:36:50 **** Incremental Build of configuration Debug for project adc_Z2_3 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:36:50 **** Incremental Build of configuration Debug for project adc_Z4_1 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:37:10 **** Incremental Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:37:10 **** Incremental Build of configuration Debug for project adc_Z2_3 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:37:11 **** Incremental Build of configuration Debug for project adc_Z4_1 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:37:42 **** Incremental Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:37:47 **** Incremental Build of configuration Debug for project adc_Z2_3 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:44:56 **** Incremental Build of configuration Debug for project adc_Z2_3 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:44:56 **** Incremental Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:44:57 **** Incremental Build of configuration Debug for project adc_Z4_1 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:44:57 **** Incremental Build of configuration Debug for project adc_Z4_2 ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+01:44:57 **** Build of configuration Debug_FLASH for project linflexd_uart_mpc5748g ****
+make -j8 all 
+Building file: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S
+Building file: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S
+Executing target #1 C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S
+Executing target #2 C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/Startup_MPC5748G.args" -c -o "Project_Settings/Startup_Code/startup_MPC5748G.o" "C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S"
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/core0_intc_sw_handlers.args" -c -o "Project_Settings/Startup_Code/core0_intc_sw_handlers.o" "C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S"
+Building file: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S
+Building file: ../Sources/main.c
+Executing target #3 C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S
+Executing target #4 ../Sources/main.c
+Invoking: Standard S32DS Assembler
+powerpc-eabivle-gcc "@Project_Settings/Startup_Code/interrupt_vectors.args" -c -o "Project_Settings/Startup_Code/interrupt_vectors.o" "C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S"
+Invoking: Standard S32DS C Compiler
+powerpc-eabivle-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:48:17: fatal error: Cpu.h: No such file or directory
+ #include "Cpu.h"
+                 ^
+compilation terminated.
+make: *** [Sources/subdir.mk:35: Sources/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+Finished building: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/core0_intc_sw_handlers.S
+Finished building: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/startup_MPC5748G.S
+ 
+ 
+Finished building: C:/NXP/S32DS_Power_v2017.R1/S32DS/S32_SDK_MPC574xx_EAR_0.8.1/platform/devices/MPC5748G/startup/gcc/interrupt_vectors.S
+ 

@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : MPC5748G 12/2016
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-03-28, 01:50, # CodeGen: 0
+**     Date/Time   : 2018-03-28, 01:54, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -56,6 +56,8 @@
 #include "device_registers.h"
 #include "clock_manager.h"
 #include "interrupt_manager.h"
+#include "edma_driver.h"
+#include "uart_pal.h"
 #include "system_MPC5748G.h"
 
 #ifdef __cplusplus
