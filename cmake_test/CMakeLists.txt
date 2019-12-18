@@ -40,7 +40,7 @@ project(adc_Z2_. VERSION 1.0)
 project(adc_Z2_3)
 
 # add the executable
-add_executable(adc_Z2_3 src/adc_Z2_3.c)
+add_executable(minimal main.c)
 
 include_directories(include)
 include_directories(${S32DS_GCC_VLE}/powerpc-eabivle/newlib)
